@@ -1,0 +1,23 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b524d057-242b-4906-859c-023e15760a97}",
+      "strict_min_version": "42.0"
+    }
+  },  
+  "description": "Adds tab color for specific environments",
+  "manifest_version": 2,
+  "name": "slkv-colortabs",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/sl-logo.png"
+  },
+  "permissions": [
+    "tabs",
+    "theme",
+    "management"
+  ],
+  "background": {
+    "scripts": ["colortabs.js"]
+  }
+}
