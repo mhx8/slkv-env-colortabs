@@ -11,3 +11,7 @@ jobs:
         with:
           files: .
           dest: result.zip
+      - uses: actions/upload-artifact@v3
+        with:
+          name: code-coverage-report
+          path: result.zip
